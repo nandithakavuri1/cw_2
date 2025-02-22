@@ -18,7 +18,16 @@ class HomeScreen extends StatelessWidget {
       'name': 'Pancakes',
       'ingredients': 'Flour, Eggs, Milk, Sugar, Baking Powder',
       'instructions': '1. Mix ingredients. 2. Heat pan. 3. Pour batter. 4. Flip and serve.'
-    },
+    },  {
+    'name': 'Caesar Salad',
+    'ingredients': 'Lettuce, Croutons, Parmesan Cheese, Caesar Dressing, Chicken (Optional)',
+    'instructions': '1. Chop lettuce. 2. Add croutons and cheese. 3. Toss with dressing. 4. Add grilled chicken if desired.'
+  },
+  {
+    'name': 'Mushroom Risotto',
+    'ingredients': 'Arborio Rice, Mushrooms, Onion, Garlic, Parmesan Cheese, Broth',
+    'instructions': '1. Sauté onions and garlic. 2. Add mushrooms. 3. Stir in rice and broth gradually. 4. Finish with Parmesan cheese.'
+  },
   ];
 
   final Function(Map<String, String>) toggleFavorite;
